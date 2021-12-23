@@ -13,6 +13,15 @@
 		D60C0592273D4E42000BBABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60C0590273D4E42000BBABD /* Main.storyboard */; };
 		D60C0594273D4E48000BBABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60C0593273D4E48000BBABD /* Assets.xcassets */; };
 		D60C0597273D4E48000BBABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60C0595273D4E48000BBABD /* LaunchScreen.storyboard */; };
+		D62BA8292774042E003C03FE /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA8282774042E003C03FE /* FoodTableViewCell.swift */; };
+		D62BA82B2774047E003C03FE /* FoodRankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA82A2774047E003C03FE /* FoodRankingTableViewController.swift */; };
+		D62BA82D27740863003C03FE /* FoodContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA82C27740863003C03FE /* FoodContent.swift */; };
+		D62BA82F27740A24003C03FE /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA82E27740A24003C03FE /* FoodTableViewController.swift */; };
+		D62BA83127740FD3003C03FE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA83027740FD3003C03FE /* Data.swift */; };
+		D62BA833277419EB003C03FE /* LocationCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA832277419EB003C03FE /* LocationCoordinate.swift */; };
+		D62BA83627741AF4003C03FE /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA83527741AF4003C03FE /* LocationTableViewCell.swift */; };
+		D62BA83827741B99003C03FE /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA83727741B99003C03FE /* LocationTableViewController.swift */; };
+		D62BA83A27741FDC003C03FE /* TravelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BA83927741FDC003C03FE /* TravelTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		D60C0593273D4E48000BBABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D60C0596273D4E48000BBABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D60C0598273D4E48000BBABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62BA8282774042E003C03FE /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		D62BA82A2774047E003C03FE /* FoodRankingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRankingTableViewController.swift; sourceTree = "<group>"; };
+		D62BA82C27740863003C03FE /* FoodContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodContent.swift; sourceTree = "<group>"; };
+		D62BA82E27740A24003C03FE /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		D62BA83027740FD3003C03FE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D62BA832277419EB003C03FE /* LocationCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCoordinate.swift; sourceTree = "<group>"; };
+		D62BA83527741AF4003C03FE /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		D62BA83727741B99003C03FE /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		D62BA83927741FDC003C03FE /* TravelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +78,28 @@
 				D60C058C273D4E42000BBABD /* SceneDelegate.swift */,
 				D60C058E273D4E42000BBABD /* ViewController.swift */,
 				D60C0590273D4E42000BBABD /* Main.storyboard */,
+				D62BA83427741ABE003C03FE /* Food */,
+				D62BA832277419EB003C03FE /* LocationCoordinate.swift */,
+				D62BA83927741FDC003C03FE /* TravelTableViewController.swift */,
+				D62BA83527741AF4003C03FE /* LocationTableViewCell.swift */,
+				D62BA83727741B99003C03FE /* LocationTableViewController.swift */,
 				D60C0593273D4E48000BBABD /* Assets.xcassets */,
 				D60C0595273D4E48000BBABD /* LaunchScreen.storyboard */,
 				D60C0598273D4E48000BBABD /* Info.plist */,
 			);
 			path = HomeworkStoryboard03;
+			sourceTree = "<group>";
+		};
+		D62BA83427741ABE003C03FE /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				D62BA83027740FD3003C03FE /* Data.swift */,
+				D62BA82C27740863003C03FE /* FoodContent.swift */,
+				D62BA82E27740A24003C03FE /* FoodTableViewController.swift */,
+				D62BA82A2774047E003C03FE /* FoodRankingTableViewController.swift */,
+				D62BA8282774042E003C03FE /* FoodTableViewCell.swift */,
+			);
+			path = Food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +174,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D60C058F273D4E42000BBABD /* ViewController.swift in Sources */,
+				D62BA8292774042E003C03FE /* FoodTableViewCell.swift in Sources */,
 				D60C058B273D4E42000BBABD /* AppDelegate.swift in Sources */,
+				D62BA82F27740A24003C03FE /* FoodTableViewController.swift in Sources */,
+				D62BA82D27740863003C03FE /* FoodContent.swift in Sources */,
 				D60C058D273D4E42000BBABD /* SceneDelegate.swift in Sources */,
+				D62BA83827741B99003C03FE /* LocationTableViewController.swift in Sources */,
+				D62BA83A27741FDC003C03FE /* TravelTableViewController.swift in Sources */,
+				D62BA83627741AF4003C03FE /* LocationTableViewCell.swift in Sources */,
+				D62BA82B2774047E003C03FE /* FoodRankingTableViewController.swift in Sources */,
+				D62BA833277419EB003C03FE /* LocationCoordinate.swift in Sources */,
+				D62BA83127740FD3003C03FE /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
